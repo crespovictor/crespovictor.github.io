@@ -1,0 +1,18 @@
+---
+layout: post
+author: "Victor Crespo"
+title:  "Hello World!"
+date:   2021-05-24 14:34:31 +1000
+permalink: "/blog/hello-world"
+---
+This is my nth attempt at making a blog from scratch (and maintaining it once it's running). In this blog I will write about projects, either small or not so small, that I do to learn new things and document the process. I plan to include software, hardware, as well as previous projects that I worked on during my studies, and some other things that I encounter in the process. 
+
+This time I'm using [Jekyll][jekyll] to create the blog engine, and hosting it on [Github Pages][githubpages]. 
+
+
+### To-Do
+- [ ] - Add a funny 404 page with a Tardis flying (Just because I like Doctor Who). *You're lost in time and space*
+- [ ] - Add meta tags and SEO capabilities to the site
+
+[jekyll]:   https://github.com/jekyll/jekyll
+[githubpages]: https://pages.github.com

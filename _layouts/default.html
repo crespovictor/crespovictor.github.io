@@ -1,0 +1,21 @@
+<head>
+    {% include head.html %}
+</head>
+
+<body class="ms-Fabric">
+    <div>
+        {% include header.html %}
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-dark">
+            {{ content }}
+        </div>
+    </div>
+
+    <div style="position: absolute;
+    bottom: 0;
+    width: 100%;">
+        {% include footer.html %}
+    </div>
+    
+</body>

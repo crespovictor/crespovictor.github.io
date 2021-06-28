@@ -1,0 +1,22 @@
+<head>
+    {% include head.html %}
+</head>
+
+<body class="ms-Fabric h-100 d-flex flex-column">
+    <div>
+        {% include header.html %}
+    </div>
+    <div class="container flex-grow-1 py-5" style="margin-top:50px">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
+            <div class="col-lg-8"><a class="btn btn-sm btn-outline-primary ms-depth-4" onclick="window.history.back()">Go Back</a></div>
+        </div>
+    </div>
+    <div class="">
+        {% include footer.html %}
+    </div>
+</body>
+

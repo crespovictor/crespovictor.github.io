@@ -1,0 +1,143 @@
+---
+---
+html{
+  scroll-behavior: smooth;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.jumbotron {
+   width:100%;
+   height: 100vh;
+   display:table;
+   color: whitesmoke;
+ }
+
+.jumbotron h1 a{
+  color: whitesmoke;
+}
+
+ 
+.jumbotron .container {
+   display:table-cell;
+   vertical-align:middle;
+   text-align: center;
+ }
+ 
+
+
+.css-selector {
+  background: linear-gradient(45deg, #c239b3, #4f6bed, #41d7b1);
+  background-size: 300% 300%;
+  -webkit-animation: Animation1 19s ease infinite;
+  -moz-animation: Animation1 19s ease infinite;
+  animation: Animation1 19s ease infinite;
+}
+
+@-webkit-keyframes Animation1 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes Animation1 {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes Animation1 { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.container-about{
+  background-color: #faf9f8;
+}
+
+.acrylic {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-blend-mode: exclusion;
+  background: rgba(255, 255, 255, .7);
+}
+
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+/* Timeline vertical line */
+ul.timeline:before {
+  content: ' ';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+  transition: all .3s ease-in-out;
+}
+
+li.timeline-item:hover{
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  transform: translate3d(0px, -1px, 0px)
+}
+
+
+.timeline1{
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-004.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=419940fc6baf1c6a20e20b10dbaf34f9);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-portfolio{
+background: #c2e9fb;  /* fallback for old browsers */
+background: linear-gradient(60deg, #a1c4fd, #c2e9fb);
+background-size: 300% 300%;
+-webkit-animation: bckg-animation 19s ease infinite;
+-moz-animation: bckg-animation 19s ease infinite;
+animation: bckg-animation 19s ease infinite}
+
+@-webkit-keyframes bckg-animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes bckg-animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes bckg-animation { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.card:hover{
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  transform: translate3d(0px, -1px, 0px)
+}
+.card {
+  margin: 20px 0;
+  transition: all .3s ease-in-out;
+}
+
+pre{
+  background-color: #ECF0F1;
+}

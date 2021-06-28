@@ -1,0 +1,23 @@
+<head>
+    {% include head.html %}
+</head>
+
+<body class="ms-Fabric">
+    <div>
+        {% include header.html %}
+    </div>
+    <div class="text-center jumbotron css-selector" style="height: 40%; background-color: khaki; top: auto;">
+        <div class="container">
+        <h1 class="py-1">Blog</h1></div>
+    </div>
+    <div class="py-5">
+        <div class="container text-dark">
+            {{ content }}
+        </div>
+    </div>
+
+    <div>
+        {% include footer.html %}
+    </div>
+    
+</body>

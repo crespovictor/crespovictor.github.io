@@ -1,0 +1,44 @@
+---
+layout: blog
+title: Blog
+
+---
+<!-- This loops through the paginated posts -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        {% for post in paginator.posts %}
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <p class="author">
+            <span class="date">{{ post.author }}</span>
+            <span class="date">{{ post.date }}</span>
+          </p>
+          <div class="content">
+            {{ post.excerpt }}
+            {% if post.excerpt != post.content %}
+              <a href="{{ site.baseurl }}{{ post.url }}" class=" btn btn-outline-primary mb-3 ms-depth-4 btn-sm">Read more</a>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+      <!-- Pagination links -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous btn  ms-depth-4">
+            Previous
+          </a>
+        {% else %}
+          <span class="previous btn btn-outline-dark ms-depth-4 disabled">Previous</span>
+        {% endif %}
+        <span class="page_number btn">
+          Page {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next btn ms-depth-4 btn-outline-dark">Next</a>
+        {% else %}
+          <span class="next btn ms-depth-4 disabled btn-outline-dark">Next</span>
+        {% endif %}
+      </div>
+    </div>
+  </div> 
+</div>
