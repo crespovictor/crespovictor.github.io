@@ -10,3 +10,6 @@ In this website (Which I built from scratch) I document my journey through the c
 
 <h3><a href="/portfolio/masters-s2-portolio/augmented-reality-art">ARt - Art and Augmented Reality</a></h3>
 <h3><a href="/portfolio/masters-s2-portolio/games-ai-interface">Using 'Guess who' board game to interface with ML</a></h3>
+<h3><a href="/portfolio/masters-s2-portolio/billboard-top-100">Predicting the next Billboard Top 100</a></h3>
+
+

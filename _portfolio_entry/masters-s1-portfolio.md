@@ -11,3 +11,4 @@ In this website (Which I built from scratch) I document my journey through the c
 
 <h3><a href="/portfolio/masters-s1-portfolio/data-art">Data Art</a></h3>
 <h3><a href="/portfolio/masters-s1-portfolio/wireless-comms-iot">Wireless communications for IoT</a></h3>
+<h3><a href="/portfolio/masters-s1-portfolio/cps-poster">Exploring a Cyber-Physical System</a></h3>
