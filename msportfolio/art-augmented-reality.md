@@ -83,16 +83,16 @@ XCode lets a developer test their own apps in registered devices. All I had to d
 ## Testing it on the wild
 To test the app in a real-world scenario, I went to the NGA and had successful results. The App was able to recognize real-world artworks, and displayed the images I created on top of the artworks.
 
-<img src='/assets/img/testing_amants.png' class='w-75'>  
+<img src='/assets/img/testing_amants.PNG' class='w-75'>  
 Testing the app in Les Amants
 
-<img src='/assets/img/testing_mort_esprit.png' class='w-75'>  
+<img src='/assets/img/testing_mort_esprit.PNG' class='w-75'>  
 Testing the app in La mort d'un esprit
 
-<img src='/assets/img/testing_country.png' class='w-75'>  
+<img src='/assets/img/testing_country.PNG' class='w-75'>  
 Testing the app in Ngayuku ngura
 
-<img src='/assets/img/testing_malevich.png' class='w-75'>  
+<img src='/assets/img/testing_malevich.PNG' class='w-75'>  
 Testing the app in Stroyuschiysya dom
 
 
