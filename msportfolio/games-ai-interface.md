@@ -7,7 +7,7 @@ permalink: "/portfolio/masters-s2-portolio/games-ai-interface"
 ---
 
 ## Implementation of a "Guess Who" board game using a decission tree clasifier
-### A Google Colab Notebook for this skill is here.
+### A Google Colab Notebook for this skill is [here][colab].
 
 This work is based on the Guess Who card game. Guess who is a board and card game where one players tries to guess who is the selected character of the other player. They ask questions that can be answered with Yes or No only regarding physical characteristics of the characters. The players, then, start to discriminate the characters based on the answers that were provided to them, until they can make a guess of the other player's character. The first person to guess who their opponent's character is wins the game.
 
@@ -88,3 +88,4 @@ Tools like this exercise can help to improve the explainability and understandab
 - Use similar tools to teach ML. The main intent of this experiment was to explore a familiar way (using a well known board game) to understand how ML models make decisions, and change the idea of AI/ML as a black box. It would be really useful to see this kind of experiments on the field, to guide kids and other people into Machine Learning.
 
 [img_folder]: https://drive.google.com/drive/folders/1VeNs-tGSyv9uOiQ9RuJfnJw-pxfmRwA8?usp=sharing
+[colab]: https://colab.research.google.com/drive/1cEAxpUCnk0C64Oy2B_35xU-G76Pl7lXf?usp=sharing
