@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/crespovictor/
 twitter: https://twitter.com/vcrespor
 github: https://github.com/crespovictor
 about: I am a Masters Student at the School of Cybernetics in the Australian National University where I study safe, sustainable, and responsible use of AI-enabled systems (Cyber-Physical Systems). Before moving to Australia, I was working in the Latin American start-up space in financial technology solutions. I like to always challenge what I know. As an engineer, part of my job is to understand how things work and how they can be improved. 
-profile_pic: /assets/img/profile.png
+profile_pic: /assets/img/profile_picture.jpg
 resume: /assets/docs/resume.pdf
 phrase: Building safer AI for everyone
 ---
