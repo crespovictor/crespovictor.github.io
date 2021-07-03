@@ -9,6 +9,8 @@ This is my nth attempt at making a blog from scratch (and maintaining it once it
 
 This time I'm using [Jekyll][jekyll] to create the blog engine, and hosting it on [Github Pages][githubpages]. 
 
+I'm using the [Fluent Design][fluent] guidelines by Microsoft, to do the visual style of the website, using [Bootstrap][bootstrap] to guide the design process.
+
 
 ### To-Do
 - [ ] - Add a funny 404 page with a Tardis flying (Just because I like Doctor Who). *You're lost in time and space*
@@ -16,3 +18,5 @@ This time I'm using [Jekyll][jekyll] to create the blog engine, and hosting it o
 
 [jekyll]:   https://github.com/jekyll/jekyll
 [githubpages]: https://pages.github.com
+[fluent]: https://www.microsoft.com/design/fluent/
+[bootstrap]: https://getbootstrap.com
