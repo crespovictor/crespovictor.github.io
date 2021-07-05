@@ -1,7 +1,7 @@
 ---
 title: The State of AI
 date: 2021-06-18
-card-image: "/assets/img/header-state-ai.jpg"
+card-image: "/assets/img/card-state-ai.jpg"
 permalink: "/portfolio/state-of-ai"
 layout: post
 ---
