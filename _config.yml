@@ -32,13 +32,13 @@ collections:
 
 
 # For Prod, before testing remember to change this
-#baseurl: "https://www.victorcrespo.xyz" # the subpath of your site, e.g. /blog
-#url: "https://www.victorcrespo.xyz/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://www.victorcrespo.xyz" # the subpath of your site, e.g. /blog
+url: "https://www.victorcrespo.xyz/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #For testing, before pushing remember to change this
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://localhost/" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://localhost/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 sass:
