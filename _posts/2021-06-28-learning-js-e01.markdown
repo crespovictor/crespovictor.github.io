@@ -5,26 +5,29 @@ title:  "Learning JS E01"
 date:   2021-06-27 14:34:31 +1000
 permalink: "/blog/learning-js-e01"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+A journey of experimenting, discovering, and messing around to learn JavaScript.
 
-Jekyll requires blog post files to be named according to the following format:
+### Hello Javascript!
 
-`YEAR-MONTH-DAY-title.MARKUP`
+This is a series of blog post covering my journey in self-learning Javascript.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I have to say that I've never liked Java or Javascript and I prefer interpreted and/or imperative programming languages, such as Python and Ruby (I built this website using Jekyll and Ruby), but I decided to give a go tryign to learn Javascript and document my journey here.
 
-Jekyll also offers powerful support for code snippets:
+## Javascript meets HTML
+[Javascript][1] is a programming language primarily used for client-side scripting on Web, although lately it's becoming also an alternative for developing server-side applications using [node.js][2]. Javascript is so important because aproximately 97% of all websites use Javascript for web page behaviour.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## What I want to learn
+- [ ] Data Visualisations (i.e. D3.js)
+- [ ] node.js
+- [ ] Videogames or similar in Javascript
+- [ ] Mobile-first websites and/or applications (React, etc)
+- [ ] Art focused frameworks such as P5
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## What is my plan?
+I will develop a training plan, from the basics of JavaScript to probably running server-side applications (node.js), but I will focus more on data visualisations and videogames.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## In conclusion
+Let's JavaScript
+
+[1]: https://www.javascript.com
+[2]: https://nodejs.org/en/
