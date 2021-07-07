@@ -2,7 +2,7 @@
 layout: post
 author: "Victor Crespo"
 title:  "Learning JS E01"
-date:   2021-06-27 14:34:31 +1000
+date:   2021-06-27
 permalink: "/blog/learning-js-e01"
 ---
 A journey of experimenting, discovering, and messing around to learn JavaScript.
