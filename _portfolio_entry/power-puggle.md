@@ -1,14 +1,14 @@
 ---
 title: The Power Puggle
 date: 2020-11-09
-card-image: "/assets/img/puggle-home.png"
+card-image: "/assets/img/puggle-home.PNG"
 permalink: '/portfolio/power-puggle'
 layout: post
 ---
 "An adorable personal energy friend that makes saving energy fun. A sensor records how much energy you use at home and suggests an energy reduction target. When you meet your target, you gain credits to take care of your energy friend-a cute platypus, whose health is dependent on the care and love you give it."  
 A project featured in the <a href='https://3ainstitute.org/demo-day-2020' target='_blank'>3Ai Demo Day 2020</a>
 
-<img src='/assets/img/puggle-home.png' alt='The Power Puggle' class='w-75'>  
+<img src='/assets/img/puggle-home.PNG' alt='The Power Puggle' class='w-75'>  
 Download the full report <a href='/assets/docs/PowerPuggle.pdf' target='_blank'>here</a>
 
 ### Motivations
