@@ -1,7 +1,7 @@
 ---
 title: Master's Degree - Second semester portfolio
 permalink: /portfolio/masters-s2-portfolio
-date: 2020-11-18
+date: 2020-11-08
 card-image: /assets/img/testing_amants.PNG
 layout: post
 ---
