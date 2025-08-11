@@ -1,22 +1,22 @@
-<head>
-    {% include head.html %}
-</head>
+---
+layout: base 
+---
 
-<body class="ms-Fabric h-100 d-flex flex-column">
-    <div>
-        {% include header.html %}
-    </div>
-    <div class="container flex-grow-1 py-5" style="margin-top:50px">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h1>{{ page.title }}</h1>
-                {{ content }}
-            </div>
-            <div class="col-lg-8"><a class="btn btn-sm btn-outline-primary ms-depth-4" onclick="window.history.back()">Go Back</a></div>
-        </div>
-    </div>
-    <div class="">
-        {% include footer.html %}
-    </div>
-</body>
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <div class="post-line"></div>
 
+  {{ content }}
+
+</div>
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left next">Prev</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right next">Next</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
+</div>
