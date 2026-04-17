@@ -3,6 +3,10 @@ code {
   font-family: $monospaced;
 }
 
+table {
+  text-align: left;
+}
+
 code {
   background-color: $grey-3;
   border-radius: 3px;

@@ -62,3 +62,6 @@ exclude:
   - "*.gem"
   - "LICENSE"
   - "READE.md"
+
+collections:
+  - stuff

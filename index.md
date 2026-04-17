@@ -14,7 +14,7 @@ When I’m not deep in code or research, you’ll find me gaming, clashing in tr
 
 # Education
 * Doctor of Philosophy
-  * Monash University (2021 ~ )
+  * Monash University (2021-2026 )
     * Research topic: Search-Based Testing of Autonomous Vehicles
 * Master of Applied Cybernetics
   * Australian National University (2020 - 2021)
