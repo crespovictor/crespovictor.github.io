@@ -4,7 +4,7 @@ domain: victorcrespo.xyz
 url: "https://victorcrespo.xyz"
 baseurl: "/"
 # url: "https://kssim.github.io"
-google_analytics: # Tracking ID, e.g. "UA-000000-01"
+google_analytics: "G-S41WSB4XLD" # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
